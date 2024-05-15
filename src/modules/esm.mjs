@@ -1,8 +1,8 @@
 import { createServer as createServerHttp } from 'http';
 import { release, version } from 'os';
 import path from 'path';
-import aJSON from './files/a.json' assert { type: "json" };
-import bJSON from './files/b.json' assert { type: "json" };
+import aJSON from 'G:\\NudeJs\\mitso-nodejs-basic\\src\\fs\\files\\a.json' assert { type: "json" };
+import bJSON from 'G:\\NudeJs\\mitso-nodejs-basic\\src\\fs\\files\\b.json' assert { type: "json" };
 import './files/c.js';
 
 const random = Math.random();

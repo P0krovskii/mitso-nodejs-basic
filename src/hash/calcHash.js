@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 
 async function calcHash() {
-    const sourceFolder = 'G:\\NudeJs\\mitso-nodejs-basic\\src\\fs\\files';
+    const sourceFolder = 'G:\\NudeJs\\mitso-nodejs-basic\\src\\hash\\files';
     const oldFilename = 'fileToCalculateHashFor.txt';
 
     const sourceFilePath = path.join(sourceFolder, oldFilename);

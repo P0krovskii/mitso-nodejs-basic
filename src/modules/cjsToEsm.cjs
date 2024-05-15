@@ -1,16 +1,16 @@
 const path = require('path');
 const { release, version } = require('os');
 const { createServer: createServerHttp } = require('http');
-require('G:\\NudeJs\\mitso-nodejs-basic\\src\\fs\\files\\c');
+require('G:\\NudeJs\\mitso-nodejs-basic\\src\\modules\\files\\c');
 
 const random = Math.random();
 
 let unknownObject;
 
 if (random > 0.5) {
-    unknownObject = require('G:\\NudeJs\\mitso-nodejs-basic\\src\\fs\\files\\a.json');
+    unknownObject = require('G:\\NudeJs\\mitso-nodejs-basic\\src\\modules\\files\\a.json');
 } else {
-    unknownObject = require('G:\\NudeJs\\mitso-nodejs-basic\\src\\fs\\files\\b.json');
+    unknownObject = require('G:\\NudeJs\\mitso-nodejs-basic\\src\\modules\\files\\b.json');
 }
 
 console.log(`Release ${release()}`);
